@@ -1,0 +1,204 @@
+.main-photo-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./paris-opera-garnier-2.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.main-top-section {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  /*background-color: rgba(255, 0, 0, 0.3);*/
+  z-index: 1;
+}
+
+.main-header {
+  width: 100%;
+  height: 100px;
+  padding: 50px 50px 0 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  color: #f4f4f7;
+  background-color: rgba(95, 20, 42, 0.5);
+}
+
+.header-left {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.header-right {
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(242, 242, 244, 0.5);
+}
+
+.main-text {
+  width: 100%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150%;
+  color: #f4f4f7;
+
+  border-style: dotted;
+  border-color: rgba(242, 242, 244, 0.5);
+  border-width: 1px;
+
+  height: calc(100vh - 101px);
+  padding: 3% 0 ;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  /*font-family: 'Cinzel Decorative', cursive;*/
+  font-size: 350%;
+  padding-bottom: 1%;
+  text-align: center;
+  color: #f4f4f7;
+}
+
+.sub-title {
+  font-size: 150%;
+  padding-top: 1%;
+}
+
+.fullscreen-bg {
+  position: relative;
+  top: 100vh;
+  background-color: #1A1F30;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  /*z-index: -100;*/
+}
+
+.fullscreen-bg-video {
+  margin: 0 auto;
+  width: 100%;
+  z-index: -100;
+}
+
+.over-video {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.over-vid-top {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150%;
+  color: #f4f4f7;
+}
+
+.over-vid-top h1 {
+  padding-bottom: 10px;
+}
+.etoiles li {
+  padding-top: 10px;
+}
+
+.season-information {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 100vh;
+  z-index: 1;
+  background-color: rgba(95, 20, 42,);
+  background-image: url("./palais-garnier-inside.jpg");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  color: #f4f4f7;
+
+  border-style: dotted;
+  border-color: rgba(242, 242, 244, 0.5);
+  border-width: 1px;
+
+  text-align: center;
+}
+
+.season-information h1 {
+  font-size: 200%;
+  padding-bottom: 30px;
+}
+
+.main-footer {
+  height: 150px;
+  position: relative;
+  top: 100vh;
+  background-color: #1A1F30;
+  z-index: 5;
+  padding: 0 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  color: #f4f4f7;
+}
+
+.menu-items li {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.upcoming-performance {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcoming-performance p {
+  padding-right: 10px;
+}
+
+.upcoming-performance li {
+  padding-top: 10px;
+}
+
+em {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150%;
+  font-style: italic;
+  text-transform:uppercase;
+  padding-bottom: 20px;
+}
+
+.social {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
